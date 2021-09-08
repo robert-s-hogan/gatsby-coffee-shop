@@ -9,7 +9,7 @@ export default function About() {
             description="More information about this about page."
         >
             <h1>About This Site</h1>
-            <Link to="/">Back to Home</Link>{" "}
+            <Link to="/">Back to Home</Link>
         </Layout>
     );
 }
