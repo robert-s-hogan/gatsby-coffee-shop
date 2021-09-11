@@ -1,6 +1,9 @@
 import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout.js";
+
+import { imageWrapper } from "../styles/index.module.css";
 
 export default function IndexPage() {
     const data = useStaticQuery(graphql`
@@ -19,6 +22,15 @@ export default function IndexPage() {
     const posts = data.allMdx.nodes;
     return (
         <Layout>
+            <div className={imageWrapper}>
+                <StaticImage
+                    src="../images/icon.png"
+                    alt="Gatsby Icon"
+                    placeholder="dominantColor"
+                    width={300}
+                    height={300}
+                />
+            </div>
             <h1>Hello Frontend Masters</h1>
             <Link to="/about">About this site</Link>
 
