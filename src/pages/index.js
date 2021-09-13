@@ -17,9 +17,22 @@ export default function IndexPage() {
                     }
                 }
             }
+            allSanityEpisode(sort: { fields: date, order: DESC }, limit: 20) {
+                nodes {
+                    id
+                    title
+                    guest {
+                        name
+                    }
+                    gatsbyPath(
+                        filePath: "/episode/{SanityEpisode.slug__current}"
+                    )
+                }
+            }
         }
     `);
     const posts = data.allMdx.nodes;
+    const episodes = data.allSanityEpisode.nodes;
     return (
         <Layout>
             <div className={imageWrapper}>
@@ -43,6 +56,20 @@ export default function IndexPage() {
                     </li>
                 ))}
             </ul>
+
+            <h2>Latest Episodes</h2>
+            <ul>
+                {episodes.map(episode => (
+                    <li key={episode.id}>
+                        <Link to={episode.gatsbyPath}>
+                            {episode.title} (with {episode.guest?.[0]?.name})
+                        </Link>
+                    </li>
+                ))}
+            </ul>
+            <a href="https://www.learnwithjason.dev">
+                Watch all episodes of <em>Learn with Jason</em>
+            </a>
         </Layout>
     );
 }
