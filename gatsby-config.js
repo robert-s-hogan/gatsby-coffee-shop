@@ -9,6 +9,15 @@ module.exports = {
         "gatsby-plugin-sitemap",
         "gatsby-plugin-react-helmet",
         {
+            resolve: "gatsby-plugin-robots-txt",
+            options: {
+                host: "https://defaultmultipagegatsbystarterm.gatsbyjs.io/",
+                sitemap:
+                    "https://defaultmultipagegatsbystarterm.gatsbyjs.io/sitemap.xml",
+                policy: [{ userAgent: "*", allow: "/" }],
+            },
+        },
+        {
             resolve: "gatsby-source-filesystem",
             options: {
                 name: "posts",
