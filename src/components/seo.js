@@ -29,7 +29,11 @@ export function Seo(props) {
     console.log(description);
 
     return (
-        <Helmet>
+        <Helmet
+            htmlAttributes={{
+                lang: "en",
+            }}
+        >
             <title>{title}</title>
             <meta name="description" content={description} />
             <link rel="canonical" href={url} />
