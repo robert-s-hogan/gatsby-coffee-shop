@@ -18,6 +18,12 @@ module.exports = {
             },
         },
         {
+            resolve: `gatsby-plugin-canonical-urls`,
+            options: {
+                siteUrl: `https://defaultmultipagegatsbystarterm.gatsbyjs.io/`,
+            },
+        },
+        {
             resolve: "gatsby-source-filesystem",
             options: {
                 name: "posts",
