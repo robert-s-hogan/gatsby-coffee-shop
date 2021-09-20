@@ -42,7 +42,7 @@ export function Layout({
                     role="navigation"
                 >
                     <div className="flex items-center ml-3">
-                        <Link to="/">
+                        <Link to="/" aria-label="Home">
                             <svg
                                 width="82"
                                 height="27"
