@@ -62,7 +62,11 @@ export function Layout({
                         </Link>
                     </div>
                     <div className="inline-block h-8 mr-3 lg:hidden">
-                        <button id="nav_toggle" className="h-full w-full">
+                        <button
+                            id="nav_toggle"
+                            className="h-full w-full"
+                            aria-label="Mobile Navigation"
+                        >
                             <svg
                                 className="h-full w-auto"
                                 xmlns="http://www.w3.org/2000/svg"
