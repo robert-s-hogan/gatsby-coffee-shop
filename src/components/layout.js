@@ -128,7 +128,7 @@ export function Layout({
             <footer className="py-16">
                 <div className="flex flex-col lg:flex-row items-center justify-between mx-auto max-w-screen-xl">
                     <div className="flex items-center">
-                        <a className="ml-4" href="/">
+                        <Link className="ml-4" to="/" aria-label="Home Page">
                             <svg
                                 width="82"
                                 height="27"
@@ -145,7 +145,7 @@ export function Layout({
                                     fill="#374151"
                                 />
                             </svg>
-                        </a>
+                        </Link>
                     </div>
                     <ul className="flex flex-col lg:flex-row items-center text-sm font-semibold text-gray-500 py-12 lg:py-0">
                         <li className="mx-7 hover:text-gray-700 mb-2 lg:mb-0">
