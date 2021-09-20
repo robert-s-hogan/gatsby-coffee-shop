@@ -1,54 +1,15 @@
 import * as React from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
+import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout.js";
 
-import { imageWrapper } from "../styles/index.module.css";
-// import "../styles/index.css"
-
-import CoffeeHero from "../images/coffee_hero.png";
-import WorkOne from "../images/work_1.jpg";
-import WorkTwo from "../images/work_2.jpg";
-import WorkThree from "../images/work_3.jpg";
-import CofeeGrowth from "../images/coffee_growth.png";
-import SmilingMan from "../images/Testimonials/smiling_man.png";
-import SmilingManTwo from "../images/Testimonials/smiling_man_2.jpg";
-import SmilingWoman from "../images/Testimonials/smiling_woman.jpg";
-
 export default function IndexPage() {
-    const data = useStaticQuery(graphql`
-        query GetBlogPosts {
-            allMdx {
-                nodes {
-                    id
-                    slug
-                    frontmatter {
-                        title
-                    }
-                }
-            }
-            allSanityEpisode(sort: { fields: date, order: DESC }, limit: 20) {
-                nodes {
-                    id
-                    title
-                    guest {
-                        name
-                    }
-                    gatsbyPath(
-                        filePath: "/episode/{SanityEpisode.slug__current}"
-                    )
-                }
-            }
-        }
-    `);
-    const posts = data.allMdx.nodes;
-    const episodes = data.allSanityEpisode.nodes;
     return (
         <Layout>
             <div className="lg:flex justify-center items-center h-full pb-16 lg:pb-0">
-                <img
-                    className="pt-24 w-full lg:pt-0 lg:w-auto"
-                    src={CoffeeHero}
+                <StaticImage
+                    className="mt-24 w-full lg:pt-0 lg:w-auto"
+                    src="../images/coffee_hero.png"
                     alt="Cartoon Large coffee spilling"
                 />
                 <div className="mx-4 mt-8 lg:mt-0 lg:ml-16">
@@ -60,12 +21,12 @@ export default function IndexPage() {
                         <span className="block font-black">coffee lovers</span>
                         in the door
                     </h1>
-                    <a
+                    <Link
                         className="inline-block uppercase text-sm text-center font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-tr-3xl rounded-bl-3xl bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300"
-                        href="/contact"
+                        to="/contact"
                     >
                         Find out more
-                    </a>
+                    </Link>
                 </div>
             </div>
 
@@ -158,16 +119,20 @@ export default function IndexPage() {
                             volutpat integer. Dis commodo blandit id enim
                             facilisi eros nulla.
                         </p>
-                        <a
+                        <Link
                             className="inline-block uppercase text-center text-sm font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-tr-3xl rounded-bl-3xl bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300"
-                            href="/growth-tips"
+                            to="/growth-tips"
                         >
                             See Tips
-                        </a>
+                        </Link>
                     </div>
-                    <img
-                        src={CofeeGrowth}
+
+                    <StaticImage
+                        src="../images/coffee_growth.png"
                         alt="A happy cartoon woman holding a green growing plant."
+                        placeholder="dominantColor"
+                        width={405}
+                        height={380}
                     />
                 </div>
             </section>
@@ -192,10 +157,12 @@ export default function IndexPage() {
                         </div>
                         <div className="flex mt-10">
                             <div className="h-12 w-12 flex-shrink-0">
-                                <img
+                                <StaticImage
                                     className="w-full h-full rounded-full shadow-inner"
-                                    src={SmilingMan}
+                                    src="../images/Testimonials/smiling_man.png"
                                     alt="A smiling man."
+                                    width={250}
+                                    height={250}
                                 />
                             </div>
                             <div className="ml-4">
@@ -223,10 +190,12 @@ export default function IndexPage() {
                         </div>
                         <div className="flex mt-10">
                             <div className="h-12 w-12 flex-shrink-0">
-                                <img
+                                <StaticImage
                                     className="w-full h-full rounded-full shadow-inner"
-                                    src={SmilingWoman}
+                                    src="../images/Testimonials/smiling_woman.jpg"
                                     alt="A smiling woman."
+                                    width={250}
+                                    height={250}
                                 />
                             </div>
                             <div className="ml-4">
@@ -254,10 +223,12 @@ export default function IndexPage() {
                         </div>
                         <div className="flex mt-10">
                             <div className="h-12 w-12 flex-shrink-0">
-                                <img
+                                <StaticImage
                                     className="w-full h-full rounded-full shadow-inner"
-                                    src={SmilingManTwo}
+                                    src="../images/Testimonials/smiling_man_2.jpg"
                                     alt="A smiling man."
+                                    width={250}
+                                    height={250}
                                 />
                             </div>
                             <div className="ml-4">
@@ -292,20 +263,20 @@ export default function IndexPage() {
                                 mauris. Scelerisque ac lectus vitae, amet sed
                                 vel molestie dui. Ullamcorper.
                             </p>
-                            <a
+                            <Link
                                 className="inline-block uppercase text-center text-sm font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-tr-3xl rounded-bl-3xl bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300"
-                                href="/project-url"
+                                to="/project-url"
                             >
                                 View Project
-                            </a>
+                            </Link>
                         </div>
                         <div className="relative h-80 lg:w-80 mt-8 lg:mt-0 -mx-4 lg:mx-0 lg:rounded-tl-10xl lg:rounded-br-10xl overflow-hidden">
                             <div className="absolute top-0 right-0 left-0 bottom-0 opacity-30 bg-yellow-50"></div>
-                            <img
+                            <StaticImage
                                 className="h-full w-full object-cover"
                                 height={320}
                                 width={320}
-                                src={WorkOne}
+                                src="../images/work_1.jpg"
                                 alt="Two cups of coffee on a wooden table."
                             />
                         </div>
@@ -326,18 +297,18 @@ export default function IndexPage() {
                                 mauris. Scelerisque ac lectus vitae, amet sed
                                 vel molestie dui. Ullamcorper.
                             </p>
-                            <a
+                            <Link
                                 className="inline-block uppercase text-center text-sm font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-tl-3xl rounded-br-3xl bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300"
-                                href="/project-url"
+                                to="/project-url"
                             >
                                 View Project
-                            </a>
+                            </Link>
                         </div>
                         <div className="relative h-80 lg:w-80 mt-8 lg:mt-0 -mx-4 lg:mx-0 lg:rounded-tr-10xl lg:rounded-bl-10xl overflow-hidden">
                             <div className="absolute top-0 right-0 left-0 bottom-0 opacity-30 bg-yellow-50"></div>
-                            <img
+                            <StaticImage
                                 className="h-full w-full object-cover"
-                                src={WorkTwo}
+                                src="../images/work_2.jpg"
                                 alt="A barista preparing coffee in Truth Coffee"
                             />
                         </div>
@@ -358,18 +329,18 @@ export default function IndexPage() {
                                 mauris. Scelerisque ac lectus vitae, amet sed
                                 vel molestie dui. Ullamcorper.
                             </p>
-                            <a
+                            <Link
                                 className="inline-block uppercase text-center text-sm font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-tr-3xl rounded-bl-3xl bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300"
-                                href="/project-url"
+                                to="/project-url"
                             >
                                 View Project
-                            </a>
+                            </Link>
                         </div>
                         <div className="relative h-80 lg:w-80 mt-8 lg:mt-0 -mx-4 lg:mx-0 lg:rounded-tl-10xl lg:rounded-br-10xl overflow-hidden">
                             <div className="absolute top-0 right-0 left-0 bottom-0 opacity-30 bg-yellow-50"></div>
-                            <img
+                            <StaticImage
                                 className="h-full w-full object-cover"
-                                src={WorkThree}
+                                src="../images/work_3.jpg"
                                 alt="A coffee shop with people seated at tables."
                             />
                         </div>
@@ -382,12 +353,12 @@ export default function IndexPage() {
                     Ready for more customers?
                 </h2>
                 <div className="text-center">
-                    <a
+                    <Link
                         className="inline-block uppercase font-bold px-5 py-3 lg:px-10 lg:py-4 rounded-tr-3xl text-sm lg:text-base rounded-bl-3xl bg-gray-900 text-yellow-50 hover:bg-gray-700 focus:ring-2 focus:ring-yellow-300"
-                        href="/contact"
+                        to="/contact"
                     >
                         Get in touch now
-                    </a>
+                    </Link>
                 </div>
             </section>
         </Layout>

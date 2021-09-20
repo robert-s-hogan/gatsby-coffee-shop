@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;600;700;900&display=swap");
-
 html {
     --tw-bg-opacity: 1;
     background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
