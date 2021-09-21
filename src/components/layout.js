@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useState } from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import { Seo } from "./seo.js";
 
@@ -27,6 +28,7 @@ export function Layout({
     `);
 
     // const meta = data?.site?.siteMetadata ?? {};
+    const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
         <>
@@ -66,6 +68,7 @@ export function Layout({
                             id="nav_toggle"
                             className="h-full w-full"
                             aria-label="Mobile Navigation"
+                            onClick={() => setNavbarOpen(!navbarOpen)}
                         >
                             <svg
                                 className="h-full w-auto"
@@ -113,19 +116,23 @@ export function Layout({
                             </svg>
                         </button>
                     </div>
-                    <div
-                        id="nav_content"
-                        className="w-full hidden py-8 lg:flex lg:w-auto lg:py-0 lg:items-center rounded-br-full shadow-md lg:shadow-none bg-yellow-50"
-                    >
-                        <ul className="flex flex-col ml-auto text-md text-gray-700 font-semibold lg:flex-row">
-                            <li className="mx-6 w-mc hover:text-gray-900 mb-4 lg:mb-0">
-                                <Link to="/growth-tips">GROWTH TIPS</Link>
-                            </li>
-                            <li className="mx-6 w-mc hover:text-gray-900 mb-4 lg:mb-0">
-                                <Link to="/contact">CONTACT</Link>
-                            </li>
-                        </ul>
-                    </div>
+                    {
+                        <div
+                            id="nav_content"
+                            className={`w-full py-8 lg:flex lg:w-auto lg:py-0 lg:items-center rounded-br-full shadow-md lg:shadow-none bg-yellow-50 ${
+                                navbarOpen ? "open" : ""
+                            }`}
+                        >
+                            <ul className="flex flex-col ml-auto text-md text-gray-700 font-semibold lg:flex-row">
+                                <li className="mx-6 w-mc hover:text-gray-900 mb-4 lg:mb-0">
+                                    <Link to="/growth-tips">GROWTH TIPS</Link>
+                                </li>
+                                <li className="mx-6 w-mc hover:text-gray-900 mb-4 lg:mb-0">
+                                    <Link to="/contact">CONTACT</Link>
+                                </li>
+                            </ul>
+                        </div>
+                    }
                 </nav>
             </header>
             <main className="relative lg:h-screen">{children}</main>
