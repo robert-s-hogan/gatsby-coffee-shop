@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "build:css": "postcss src/styles/index.css -o static/dist/index.css",
+    "build:css": "postcss src/styles/index.css -o src/styles/tailwind.css",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
