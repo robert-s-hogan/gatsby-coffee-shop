@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
+    "build:css": "postcss src/styles/index.css -o static/dist/index.css",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
