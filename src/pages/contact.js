@@ -132,7 +132,9 @@ export default function ContactPage() {
                                     name="contact"
                                     data-netlify="true"
                                     autocomplete="off"
+                                    method="POST"
                                     netlify-honeypot="bot-field"
+                                    action="/thank-you"
                                 >
                                     <p class="hidden">
                                         <label>
