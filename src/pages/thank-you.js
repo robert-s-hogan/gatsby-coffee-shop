@@ -7,7 +7,7 @@ export default function ThankYou() {
     return (
         <Layout>
             <h1>Thank You</h1>
-            <Link to="/">Back</Link>
+            <Link to="/">back to home page</Link>
         </Layout>
     );
 }
