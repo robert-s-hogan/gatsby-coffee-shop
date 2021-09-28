@@ -72,7 +72,7 @@ export default function GrowthTips() {
 
                     <div className="md:flex">
                         <div className="flex flex-col md:w-1/2 md:mr-4">
-                            <a
+                            <Link
                                 to="/blog"
                                 className="inline-block bg-white rounded-md transition-all duration-300 hover:bg-yellow-100 shadow-sm p-4  mb-16 md:mb-12 border  border-gray-200"
                             >
@@ -122,11 +122,11 @@ export default function GrowthTips() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="flex flex-col md:w-1/2 md:ml-4">
-                            <a
+                            <Link
                                 to="/blog"
                                 className="inline-block bg-white rounded-md transition-all duration-300 hover:bg-yellow-100 shadow-sm p-4  mb-16 md:mb-12 border  border-gray-200"
                             >
@@ -176,7 +176,7 @@ export default function GrowthTips() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </ul>
