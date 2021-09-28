@@ -1,14 +1,8 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../components/layout";
-
-import Writer from "../images/writer.png";
-import WriterTwo from "../images/writer-2.png";
-import GrowthTipsHero from "../images/growth_tips_hero.jpg";
-import PostTwo from "../images/post_2.jpg";
-import WriterThree from "../images/writer-3.png";
-import PostThree from "../images/post_3.jpg";
 
 import "../styles/index.css";
 
@@ -19,7 +13,7 @@ export default function GrowthTips() {
                 <ul className="mx-8 w-full md:mx-auto md:w-11/12 lg:mx-auto lg:w-2/3 xl:w-1/2">
                     <Link
                         className="inline-block bg-white rounded-md transition-all duration-300 hover:bg-yellow-100 shadow-sm p-4 lg:p-8  mb-16 md:mb-12 border  border-gray-200"
-                        to="/how_to_use_organic_seo"
+                        to="/how-to-use-organic-seo"
                     >
                         <div className="flex flex-col-reverse md:grid md:grid-cols-5">
                             <div className="flex min-h-0 flex-col col-start-1 col-end-3 md:mr-6">
@@ -44,9 +38,10 @@ export default function GrowthTips() {
                                 </p>
                                 <div className="flex items-center">
                                     <div className="h-12 w-12 rounded-md overflow-hidden flex-shrink-0">
-                                        <img
+                                        <StaticImage
                                             className="w-full h-full object-cover object-bottom"
-                                            src={Writer}
+                                            src="../images/writer.png"
+                                            placeholder="dominantColor"
                                             alt="A smiling female George Orwell."
                                         />
                                     </div>
@@ -61,9 +56,10 @@ export default function GrowthTips() {
                                 </div>
                             </div>
                             <div className="rounded-md overflow-hidden h-48 lg:h-full lg:min-h-0 lg:col-start-3 lg:col-end-6">
-                                <img
+                                <StaticImage
                                     className="w-full h-full object-cover object-bottom"
-                                    src={GrowthTipsHero}
+                                    src="../images/growth_tips_hero.jpg"
+                                    placeholder="dominantColor"
                                     alt="Waves breaking on a perfect shore."
                                 />
                             </div>
@@ -77,9 +73,10 @@ export default function GrowthTips() {
                                 className="inline-block bg-white rounded-md transition-all duration-300 hover:bg-yellow-100 shadow-sm p-4  mb-16 md:mb-12 border  border-gray-200"
                             >
                                 <div className="rounded-md overflow-hidden h-48 lg:h-72">
-                                    <img
+                                    <StaticImage
                                         className="h-full w-full object-cover rounded-md"
-                                        src={PostTwo}
+                                        src="../images/post_2.jpg"
+                                        placeholder="dominantColor"
                                         alt="A cool rubber duck in a blue swimming pool."
                                     />
                                 </div>
@@ -106,9 +103,10 @@ export default function GrowthTips() {
                                     </p>
                                     <div className="flex items-center">
                                         <div className="h-12 w-12 rounded-md overflow-hidden flex-shrink-0">
-                                            <img
+                                            <StaticImage
                                                 className="w-full h-full object-cover object-bottom"
-                                                src={WriterThree}
+                                                src="../images/writer-3.png"
+                                                placeholder="dominantColor"
                                                 alt="A smiling Satoshi Nakamoto."
                                             />
                                         </div>
@@ -131,10 +129,11 @@ export default function GrowthTips() {
                                 className="inline-block bg-white rounded-md transition-all duration-300 hover:bg-yellow-100 shadow-sm p-4  mb-16 md:mb-12 border  border-gray-200"
                             >
                                 <div className="rounded-md overflow-hidden h-48 lg:h-72">
-                                    <img
+                                    <StaticImage
                                         className="h-full w-full object-cover rounded-md"
-                                        src={PostThree}
+                                        src="../images/post_3.jpg"
                                         alt="A blue hotel swimming pool flanked by two palm trees."
+                                        placeholder="dominantColor"
                                     />
                                 </div>
                                 <div className="flex flex-col">
@@ -160,9 +159,10 @@ export default function GrowthTips() {
                                     </p>
                                     <div className="flex items-center">
                                         <div className="h-12 w-12 rounded-md overflow-hidden flex-shrink-0">
-                                            <img
+                                            <StaticImage
                                                 className="w-full h-full object-cover object-bottom"
-                                                src={WriterTwo}
+                                                src="../images/writer-2.png"
+                                                placeholder="dominantColor"
                                                 alt="A smiling female Jack Johnson."
                                             />
                                         </div>
