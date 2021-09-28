@@ -6,7 +6,7 @@ import Layout from "../components/layout.js";
 
 export default function IndexPage() {
     return (
-        <section className="relative lg:h-screen">
+        <>
             <Layout>
                 <div className="lg:flex justify-center items-center h-full pb-16 lg:pb-0">
                     <div className="pt-24 w-full lg:pt-0 lg:w-auto">
@@ -372,6 +372,6 @@ export default function IndexPage() {
                     </div>
                 </section>
             </Layout>
-        </section>
+        </>
     );
 }

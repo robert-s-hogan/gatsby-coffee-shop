@@ -32,7 +32,7 @@ export function Layout({
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
-        <>
+        <section className="relative lg:h-screen">
             <Seo
                 title={title}
                 description={description}
@@ -136,7 +136,7 @@ export function Layout({
                     }
                 </nav>
             </header>
-            <main className="relative lg:h-screen">{children}</main>
+            {children}
             <footer className="py-16">
                 <div className="flex flex-col lg:flex-row items-center justify-between mx-auto max-w-screen-xl">
                     <div className="flex items-center">
@@ -215,7 +215,7 @@ export function Layout({
                     <span>&copy; Coffee Shop Specialist 2021</span>
                 </div>
             </footer>
-        </>
+        </section>
     );
 }
 

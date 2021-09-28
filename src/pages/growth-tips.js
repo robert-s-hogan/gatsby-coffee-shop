@@ -15,7 +15,7 @@ import "../styles/index.css";
 export default function GrowthTips() {
     return (
         <Layout title="Growth Tips">
-            <main className="pt-24 pb-40 lg:pt-40 lg:pb-60 flex justify-center">
+            <div className="pt-24 pb-40 lg:pt-40 lg:pb-60 flex justify-center">
                 <ul className="mx-8 w-full md:mx-auto md:w-11/12 lg:mx-auto lg:w-2/3 xl:w-1/2">
                     <Link
                         className="inline-block bg-white rounded-md transition-all duration-300 hover:bg-yellow-100 shadow-sm p-4 lg:p-8  mb-16 md:mb-12 border  border-gray-200"
@@ -180,7 +180,7 @@ export default function GrowthTips() {
                         </div>
                     </div>
                 </ul>
-            </main>
+            </div>
         </Layout>
     );
 }
