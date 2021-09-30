@@ -3,9 +3,9 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../components/layout";
 
-export default function HowToUseOrganicSeo() {
+export default function HowToSourceTheBestBeans() {
     return (
-        <Layout title="How to Use Organic SEO">
+        <Layout title="How to Source the Best Beans">
             <section class="pt-16 lg:pb-32">
                 <article>
                     <div class="relative overflow-hidden lg:rounded-br-full h-1/6 lg:h-130 w-full mb-12 lg:mb-16">
