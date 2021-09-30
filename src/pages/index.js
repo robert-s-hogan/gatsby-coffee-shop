@@ -254,7 +254,7 @@ export default function IndexPage() {
                     </div>
                 </section>
 
-                <section className="pt-24 lg:pt-40 pb-32 lg:pb-52">
+                {/* <section className="pt-24 lg:pt-40 pb-32 lg:pb-52">
                     <h2 className="text-center text-3xl lg:text-4xl font-semibold uppercase text-gray-900 mb-20 lg:mb-24">
                         My Previous Work
                     </h2>
@@ -356,9 +356,9 @@ export default function IndexPage() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="py-24 shadow-inner  bg-yellow-100">
+                <section className="py-24 shadow-inner">
                     <h2 className="text-center font-semibold text-xl lg:text-2xl mb-12 text-gray-900">
                         Ready for more customers?
                     </h2>
