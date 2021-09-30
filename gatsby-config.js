@@ -1,8 +1,9 @@
 module.exports = {
     siteMetadata: {
         siteUrl: "https://defaultmultipagegatsbystarterm.gatsbyjs.io/",
-        title: "Default Gatsby Site",
-        description: "Here is the default starter multi-page",
+        title: "Local Coffee Shop",
+        description:
+            "Here is a template for local coffee shops to have a clean, user experience, and fast professional created site.",
         image: "https://res.cloudinary.com/dmfdjwwgb/image/upload/v1630950348/robertshogan.com/J_R___T_8.21.21-31_copy_k9zia3.jpg",
     },
     plugins: [
