@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://local-coffee-shop-gatsby-tailwind.netlify.app/static/78e3d8ed986a3aa5dd73278bdf2348a7/f8f67/coffee_hero.webp" alt="Logo" width="150" height="150">
+    <img src="https://local-coffee-shop-gatsby-tailwind.netlify.app/static/78e3d8ed986a3aa5dd73278bdf2348a7/f8f67/coffee_hero.webp" alt="Logo" width="150">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
