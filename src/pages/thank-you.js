@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../components/layout";
 
@@ -8,7 +7,7 @@ export default function ThankYou() {
     return (
         <Layout>
             <div className="lg:flex justify-center items-center h-full pb-16 lg:pb-0">
-                <div className="mx-4 mt-8 lg:mt-0 lg:ml-16">
+                <div className="pt-24 w-full lg:w-auto mx-4 mt-8 lg:mx-16">
                     <span className="block uppercase text-sm lg:text-base lg:font-semibold mb-2 lg:mb-4 text-gray-700">
                         Thank you for getting in touch!
                     </span>
