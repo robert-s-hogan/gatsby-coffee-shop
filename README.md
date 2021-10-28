@@ -186,7 +186,7 @@ Project Link: [https://local-coffee-shop-gatsby-tailwind.netlify.app/](https://l
 ## Acknowledgments
 
 -   [FreelanceMastery.dev (Designs)](https://freelancemastery.dev/)
--   [Netlify Forms (set up)](https://www.youtube.com/watch?v=6ElQ689HRcY&ab_channel=TraversyMedia)
+-   [Netlify Forms (Tutorial and set up)](https://www.youtube.com/watch?v=6ElQ689HRcY&ab_channel=TraversyMedia)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
