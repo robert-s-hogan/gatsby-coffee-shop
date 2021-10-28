@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://local-coffee-shop-gatsby-tailwind.netlify.app/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://local-coffee-shop-gatsby-tailwind.netlify.app/static/78e3d8ed986a3aa5dd73278bdf2348a7/f8f67/coffee_hero.webp" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Local Cofee Shop</h3>
@@ -105,19 +105,25 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
     ```sh
     git clone https://github.com/robert-s-hogan/gatsby-coffee-shop.git
+    cd gatsby-coffee-shop
     ```
-3. Install NPM packages
+2. Install NPM packages
     ```sh
     npm install
     ```
-4. Enter your API in `config.js`
+3. Run local development server
     ```js
-    const API_KEY = "ENTER YOUR API";
+    gatsby develop
     ```
+4. Open browser and go to
+    ```js
+    http://localhost:8000/
+    ```
+
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -138,7 +144,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 -   [] Feature 1
 -   [] Feature 2
 -   [] Feature 3
-    -   [] Nested Feature
+  -   [] Nested Feature
 
 See the [open issues](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues) for a full list of proposed features (and known issues).
 
@@ -205,3 +211,4 @@ Project Link: [https://github.com/robert-s-hogan/gatsby-coffee-shop](https://git
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/www.linkedin.com/in/robert-s-hogan
 [product-screenshot]: https://res.cloudinary.com/dmfdjwwgb/image/upload/v1635453959/local-coffee-shop-gatsby-tailwind.netlify.app/gatsby_coffee_shop-desktop_zo0psg.jpg
+```
