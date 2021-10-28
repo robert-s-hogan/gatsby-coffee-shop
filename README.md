@@ -30,10 +30,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Local Cofee Shop</h3>
 
   <p align="center">
-    project_description
+    Sample coffee shop template using TailwindCSS, Gatsby, and hosted on Netlify.
     <br />
     <br />
     <a href="https://local-coffee-shop-gatsby-tailwind.netlify.app/">View Demo</a>
@@ -76,8 +76,6 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `robert-s-hogan`, `gatsby-coffee-shop`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
@@ -85,6 +83,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 -   [React.js](https://reactjs.org/)
 -   [Gatsby.js](https://gatsbyjs.org/)
 -   [TailwindCSS](https://tailwindcss.com/)
+-   [Netlify](https://www.netlify.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -174,7 +173,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@robert_s_hogan](https://twitter.com/robert_s_hogan) - robert.s.hogan@icloud.com
 
 Project Link: [https://github.com/robert-s-hogan/gatsby-coffee-shop](https://github.com/robert-s-hogan/gatsby-coffee-shop)
 
@@ -204,5 +203,5 @@ Project Link: [https://github.com/robert-s-hogan/gatsby-coffee-shop](https://git
 [license-shield]: https://img.shields.io/github/license/robert-s-hogan/gatsby-coffee-shop.svg?style=for-the-badge
 [license-url]: https://github.com/robert-s-hogan/gatsby-coffee-shop/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/www.linkedin.com/in/robert-s-hogan
+[product-screenshot]: https://res.cloudinary.com/dmfdjwwgb/image/upload/v1635453959/local-coffee-shop-gatsby-tailwind.netlify.app/gatsby_coffee_shop-desktop_zo0psg.jpg
