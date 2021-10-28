@@ -119,7 +119,10 @@ This is an example of how to list things you need to use the software and how to
     gatsby develop
     ```
 4. Open browser and go to
-`js http://localhost:8000/ `
+    ```js
+    http://localhost:8000/
+    ```
+
  <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
