@@ -129,9 +129,7 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+This single page web application is used for local small business coffee shops and can be hosted on various platforms.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -139,10 +137,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
--   [] Feature 1
--   [] Feature 2
--   [] Feature 3
--   [] Nested Feature
+-   [SocialMedia](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/3)
+-   [CopyUpdate](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/5))
+-   [NewsAPI](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/7)
+-   [UpdateForm](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/6)
 
 See the [open issues](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues) for a full list of proposed features (and known issues).
 
