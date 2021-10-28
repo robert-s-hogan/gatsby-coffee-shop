@@ -137,10 +137,10 @@ This single page web application is used for local small business coffee shops a
 
 ## Roadmap
 
--   [SocialMedia](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/3)
--   [CopyUpdate](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/5)
--   [NewsAPI](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/7)
--   [UpdateForm](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/6)
+-   [SocialMedia](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/3) - Set up fake social media accounts that post periodically
+-   [CopyUpdate](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/5) - Review other sites and adwords to finalize copy.
+-   [NewsAPI](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/7) - Set up web scraper on various coffee specific sites and create and API.
+-   [UpdateForm](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/6) - Update netlify form and create email follow up.
 
 See the [open issues](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues) for a full list of proposed features (and known issues).
 
