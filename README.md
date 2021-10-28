@@ -80,10 +80,10 @@
 
 ### Built With
 
--   [React.js](https://reactjs.org/)
--   [Gatsby.js](https://gatsbyjs.org/)
--   [TailwindCSS](https://tailwindcss.com/)
--   [Netlify](https://www.netlify.com)
+-   [React.js](https://reactjs.org/) - For UI and components
+-   [Gatsby.js](https://gatsbyjs.org/) - For performance, acessibility and security
+-   [TailwindCSS](https://tailwindcss.com/) - For design
+-   [Netlify](https://www.netlify.com) - For deployment and domain services
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
