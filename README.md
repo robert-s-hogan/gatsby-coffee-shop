@@ -187,6 +187,9 @@ Project Link: [https://local-coffee-shop-gatsby-tailwind.netlify.app/](https://l
 
 -   [FreelanceMastery.dev (Designs)](https://freelancemastery.dev/)
 -   [Netlify Forms (Tutorial and set up)](https://www.youtube.com/watch?v=6ElQ689HRcY&ab_channel=TraversyMedia)
+-   [othneildrew's README template](https://github.com/othneildrew/Best-README-Template)
+-   [Github Img Shields](https://shields.io)
+-   [MIT License](https://choosealicense.com/licenses/mit/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
