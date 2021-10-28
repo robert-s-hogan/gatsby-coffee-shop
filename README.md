@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://local-coffee-shop-gatsby-tailwind.netlify.app/">
-    <img src="https://local-coffee-shop-gatsby-tailwind.netlify.app/static/78e3d8ed986a3aa5dd73278bdf2348a7/f8f67/coffee_hero.webp" alt="Logo" width="80" height="80">
+    <img src="https://local-coffee-shop-gatsby-tailwind.netlify.app/static/78e3d8ed986a3aa5dd73278bdf2348a7/f8f67/coffee_hero.webp" alt="Logo" width="160" height="160">
   </a>
 
 <h3 align="center">Local Cofee Shop</h3>
@@ -138,7 +138,7 @@ This single page web application is used for local small business coffee shops a
 ## Roadmap
 
 -   [SocialMedia](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/3)
--   [CopyUpdate](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/5))
+-   [CopyUpdate](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/5)
 -   [NewsAPI](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/7)
 -   [UpdateForm](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/6)
 
@@ -177,7 +177,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@robert_s_hogan](https://twitter.com/robert_s_hogan) - robert.s.hogan@icloud.com
 
-Project Link: [https://github.com/robert-s-hogan/gatsby-coffee-shop](https://github.com/robert-s-hogan/gatsby-coffee-shop)
+Project Link: [https://local-coffee-shop-gatsby-tailwind.netlify.app/](https://local-coffee-shop-gatsby-tailwind.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -185,9 +185,8 @@ Project Link: [https://github.com/robert-s-hogan/gatsby-coffee-shop](https://git
 
 ## Acknowledgments
 
--   []()
--   []()
--   []()
+-   [FreelanceMastery.dev (Designs)](https://freelancemastery.dev/)
+-   [Netlify Forms (set up)](https://www.youtube.com/watch?v=6ElQ689HRcY&ab_channel=TraversyMedia)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -205,7 +204,7 @@ Project Link: [https://github.com/robert-s-hogan/gatsby-coffee-shop](https://git
 [license-shield]: https://img.shields.io/github/license/robert-s-hogan/gatsby-coffee-shop.svg?style=for-the-badge
 [license-url]: https://github.com/robert-s-hogan/gatsby-coffee-shop/blob/main/license.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https:www.linkedin.com/in/robert-s-hogan
+[linkedin-url]: https://www.linkedin.com/in/robert-s-hogan
 [product-screenshot]: https://res.cloudinary.com/dmfdjwwgb/image/upload/v1635453959/local-coffee-shop-gatsby-tailwind.netlify.app/gatsby_coffee_shop-desktop_zo0psg.jpg
 
 ```
