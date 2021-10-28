@@ -203,9 +203,9 @@ Project Link: [https://github.com/robert-s-hogan/gatsby-coffee-shop](https://git
 [issues-shield]: https://img.shields.io/github/issues/robert-s-hogan/gatsby-coffee-shop.svg?style=for-the-badge
 [issues-url]: https://github.com/robert-s-hogan/gatsby-coffee-shop/issues
 [license-shield]: https://img.shields.io/github/license/robert-s-hogan/gatsby-coffee-shop.svg?style=for-the-badge
-[license-url]: https://github.com/robert-s-hogan/gatsby-coffee-shop/blob/master/LICENSE.txt
+[license-url]: https://github.com/robert-s-hogan/gatsby-coffee-shop/blob/main/license.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/www.linkedin.com/in/robert-s-hogan
+[linkedin-url]: https:www.linkedin.com/in/robert-s-hogan
 [product-screenshot]: https://res.cloudinary.com/dmfdjwwgb/image/upload/v1635453959/local-coffee-shop-gatsby-tailwind.netlify.app/gatsby_coffee_shop-desktop_zo0psg.jpg
 
 ```
