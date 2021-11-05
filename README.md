@@ -30,7 +30,7 @@
     <img src="https://local-coffee-shop-gatsby-tailwind.netlify.app/static/78e3d8ed986a3aa5dd73278bdf2348a7/f8f67/coffee_hero.webp" alt="Logo" width="160" height="160">
   </a>
 
-<h3 align="center">Local Cofee Shop</h3>
+<h3 align="center">Generic</h3>
 
   <p align="center">
     Sample coffee shop template using TailwindCSS, Gatsby, and hosted on Netlify.
