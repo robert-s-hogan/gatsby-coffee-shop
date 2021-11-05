@@ -1,31 +1,29 @@
 module.exports = {
-    purge: ["./src/**/*.html"],
-    darkMode: false, // or 'media' or 'class'
-    theme: {
-        extend: {
-            fontFamily: {
-                kufam: ["Kufam"],
-            },
-            spacing: {
-                18: "4.5rem",
-                22: "5.5rem",
-                30: "7.5rem",
-                89: "22.25rem",
-                100: "25rem",
-                130: "32.5rem",
-            },
-            width: {
-                mc: "max-content",
-            },
-            borderRadius: {
-                "5xl": "2.5rem",
-                "10xl": "5rem",
-                "20xl": "10rem",
-            },
-        },
+  purge: ["./src/**/*.html"],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      fontFamily: {
+        'workSans': ["Work Sans"],
+        'plexSerif': ["IBM Plex Serif"]
+      },
+      spacing: {
+        18: "4.5rem",
+        22: "5.5rem",
+        30: "7.5rem",
+        89: "22.25rem",
+      },
+      borderWidth: {
+        3: "3px",
+        14: "14px",
+      },
+      width: {
+        mc: "max-content",
+      },
     },
-    variants: {
-        extend: {},
-    },
-    plugins: [],
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 };
