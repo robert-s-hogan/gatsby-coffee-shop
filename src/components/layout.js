@@ -6,7 +6,6 @@ import { Seo } from "./seo.js";
 import { header, content } from "../styles/layout.module.css";
 import "../styles/global.css";
 import "../styles/index.css";
-import "../styles/tailwind.css";
 
 export function Layout({
     children,
