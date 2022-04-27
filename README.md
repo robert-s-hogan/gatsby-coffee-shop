@@ -26,8 +26,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://local-coffee-shop-gatsby-tailwind.netlify.app/">
-    <img src="https://local-coffee-shop-gatsby-tailwind.netlify.app/static/78e3d8ed986a3aa5dd73278bdf2348a7/f8f67/coffee_hero.webp" alt="Logo" width="160" height="160">
+  <a href="https://rshcom-coffee-template.netlify.app//">
+    <img src="https://rshcom-coffee-template.netlify.app//static/78e3d8ed986a3aa5dd73278bdf2348a7/f8f67/coffee_hero.webp" alt="Logo" width="160" height="160">
   </a>
 
 <h3 align="center">Local Cofee Shop</h3>
@@ -36,7 +36,7 @@
     Sample coffee shop template using TailwindCSS, Gatsby, and hosted on Netlify.
     <br />
     <br />
-    <a href="https://local-coffee-shop-gatsby-tailwind.netlify.app/">View Demo</a>
+    <a href="https://rshcom-coffee-template.netlify.app//">View Demo</a>
     ·
     <a href="https://github.com/robert-s-hogan/gatsby-coffee-shop/issues">Report Bug</a>
     ·
@@ -80,10 +80,10 @@
 
 ### Built With
 
--   [React.js](https://reactjs.org/) - For UI and components
--   [Gatsby.js](https://gatsbyjs.org/) - For performance, acessibility and security
--   [TailwindCSS](https://tailwindcss.com/) - For design
--   [Netlify](https://www.netlify.com) - For deployment and domain services
+- [React.js](https://reactjs.org/) - For UI and components
+- [Gatsby.js](https://gatsbyjs.org/) - For performance, acessibility and security
+- [TailwindCSS](https://tailwindcss.com/) - For design
+- [Netlify](https://www.netlify.com) - For deployment and domain services
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -98,30 +98,30 @@ To get a local copy up and running follow these simple example steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 
--   npm
-    ```sh
-    npm install npm@latest -g
-    ```
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
 ### Installation
 
 1. Clone the repo
-    ```sh
-    git clone https://github.com/robert-s-hogan/gatsby-coffee-shop.git
-    cd gatsby-coffee-shop
-    ```
+   ```sh
+   git clone https://github.com/robert-s-hogan/gatsby-coffee-shop.git
+   cd gatsby-coffee-shop
+   ```
 2. Install NPM packages
-    ```sh
-    npm install
-    ```
+   ```sh
+   npm install
+   ```
 3. Run local development server
-    ```js
-    gatsby develop
-    ```
+   ```js
+   gatsby develop
+   ```
 4. Open browser and go to
-    ```js
-    http://localhost:8000/
-    ```
+   ```js
+   http://localhost:8000/
+   ```
 
  <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -137,10 +137,10 @@ This single page web application is used for local small business coffee shops a
 
 ## Roadmap
 
--   [SocialMedia](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/3) - Set up fake social media accounts that post periodically
--   [CopyUpdate](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/5) - Review other sites and adwords to finalize copy.
--   [NewsAPI](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/7) - Set up web scraper on various coffee specific sites and create and API.
--   [UpdateForm](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/6) - Update netlify form and create email follow up.
+- [SocialMedia](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/3) - Set up fake social media accounts that post periodically
+- [CopyUpdate](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/5) - Review other sites and adwords to finalize copy.
+- [NewsAPI](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/7) - Set up web scraper on various coffee specific sites and create and API.
+- [UpdateForm](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues/6) - Update netlify form and create email follow up.
 
 See the [open issues](https://github.com/robert-s-hogan/gatsby-coffee-shop/issues) for a full list of proposed features (and known issues).
 
@@ -177,7 +177,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@robert_s_hogan](https://twitter.com/robert_s_hogan) - robert.s.hogan@icloud.com
 
-Project Link: [https://local-coffee-shop-gatsby-tailwind.netlify.app/](https://local-coffee-shop-gatsby-tailwind.netlify.app/)
+Project Link: [https://rshcom-coffee-template.netlify.app//](https://rshcom-coffee-template.netlify.app//)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -185,11 +185,11 @@ Project Link: [https://local-coffee-shop-gatsby-tailwind.netlify.app/](https://l
 
 ## Acknowledgments
 
--   [FreelanceMastery.dev (Designs)](https://freelancemastery.dev/)
--   [Netlify Forms (Tutorial and set up)](https://www.youtube.com/watch?v=6ElQ689HRcY&ab_channel=TraversyMedia)
--   [othneildrew's README template](https://github.com/othneildrew/Best-README-Template)
--   [Github Img Shields](https://shields.io)
--   [MIT License](https://choosealicense.com/licenses/mit/)
+- [FreelanceMastery.dev (Designs)](https://freelancemastery.dev/)
+- [Netlify Forms (Tutorial and set up)](https://www.youtube.com/watch?v=6ElQ689HRcY&ab_channel=TraversyMedia)
+- [othneildrew's README template](https://github.com/othneildrew/Best-README-Template)
+- [Github Img Shields](https://shields.io)
+- [MIT License](https://choosealicense.com/licenses/mit/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -208,7 +208,7 @@ Project Link: [https://local-coffee-shop-gatsby-tailwind.netlify.app/](https://l
 [license-url]: https://github.com/robert-s-hogan/gatsby-coffee-shop/blob/main/license.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/robert-s-hogan
-[product-screenshot]: https://res.cloudinary.com/dmfdjwwgb/image/upload/v1635453959/local-coffee-shop-gatsby-tailwind.netlify.app/gatsby_coffee_shop-desktop_zo0psg.jpg
+[product-screenshot]: https://res.cloudinary.com/dmfdjwwgb/image/upload/v1635453959/rshcom-coffee-template.netlify.app//gatsby_coffee_shop-desktop_zo0psg.jpg
 
 ```
 
