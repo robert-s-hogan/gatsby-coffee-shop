@@ -39,7 +39,7 @@ export function Seo(props) {
       <meta property="og:description" content={description} />
       {image && <meta name="og:image" content={image} />}
 
-      <meta name="icon" href="../images/cofee-favicon.ico" />
+      <meta name="icon" href="../images/coffee-favicon.ico" />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
