@@ -28,9 +28,9 @@ export default function GrowthTips() {
                     August 20, 2021
                   </span>
                 </div>
-                <h2 className="font-workSans text-2xl font-semibold my-2 text-gray-700">
+                <h1 className="font-workSans text-2xl font-semibold my-2 text-gray-700">
                   How to Use Organic SEO
-                </h2>
+                </h1>
                 <p className="text-sm mb-6 flex-grow text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Possimus eligendi libero sit nihil tempora, totam

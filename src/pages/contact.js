@@ -24,7 +24,7 @@ export default function ContactPage() {
               />
             </div>
             <div class="z-10">
-              <h2 class="font-medium mb-5 text-yellow-50">Get in Touch</h2>
+              <h1 class="font-medium mb-5 text-yellow-50">Get in Touch</h1>
               <div>
                 <div class="flex items-center mb-10">
                   <div class="p-2 rounded-full mr-6 bg-gray-100">

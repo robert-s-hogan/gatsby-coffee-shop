@@ -29,7 +29,7 @@ export function Seo(props) {
         lang: "en",
       }}
     >
-      <title>{title}</title>
+      <title>{title && `${title} | Local Coffee Shop`}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={url} />
       {image && <meta name="image" content={image} />}
