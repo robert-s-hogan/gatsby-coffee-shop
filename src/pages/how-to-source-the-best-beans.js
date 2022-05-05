@@ -5,8 +5,11 @@ import Layout from "../components/layout";
 
 export default function HowToSourceTheBestBeans() {
   return (
-    <Layout title="How to Source the Best Beans" description="">
-      <section class="How to Source the Best Beans near you.  Tips to build the best product to keep you customers.">
+    <Layout
+      title="How to Source the Best Beans"
+      description="How to Source the Best Beans near you.  Tips to build the best product to keep you customers."
+    >
+      <section>
         <article>
           <div class="relative overflow-hidden lg:rounded-br-full h-1/6 lg:h-130 w-full mb-12 lg:mb-16">
             <div class="absolute top-0 bottom-0 left-0 right-0 bg-gray-700 opacity-50"></div>
