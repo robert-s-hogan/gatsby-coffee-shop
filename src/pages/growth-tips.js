@@ -18,7 +18,7 @@ export default function GrowthTips() {
             className="inline-block bg-white rounded-md transition-all duration-300 hover:bg-yellow-100 shadow-sm p-4 lg:p-8  mb-16 md:mb-12 border  border-gray-200"
             to="/how-to-use-organic-seo"
           >
-            <div className="flex flex-col-reverse md:grid md:grid-cols-5">
+            <div className="flex flex-col-reverse lg:grid lg:grid-cols-5">
               <div className="flex min-h-0 flex-col col-start-1 col-end-3 md:mr-6">
                 <div className="mt-2 md:mt-0">
                   <span className="uppercase font-semibold text-gray-700 text-xs">
