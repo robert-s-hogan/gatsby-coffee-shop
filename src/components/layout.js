@@ -1,8 +1,8 @@
 import * as React from "react";
 import { useState } from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
-import { Seo } from "./seo.js";
 
+import { Seo } from "./seo.js";
 import { header, content } from "../styles/layout.module.css";
 import "../styles/global.css";
 import "../styles/index.css";
@@ -63,6 +63,7 @@ export function Layout({
                             </svg>
                         </Link>
                     </div>
+
                     <div className="inline-block h-8 mr-3 lg:hidden">
                         <button
                             id="nav_toggle"
